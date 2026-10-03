@@ -22,7 +22,7 @@ VaultForgeWalletBot is a multi-chain crypto wallet that runs directly in Telegra
 ## Links
 
 - **Telegram Bot**: https://t.me/VaultForgeWalletBot707_bot
-- **Developer**: Hatim
+- **Developer**: Bimoxu
 
 ## License
 
