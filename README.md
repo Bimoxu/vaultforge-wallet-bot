@@ -1,20 +1,24 @@
 # VaultForgeWalletBot
 
-A secure wallet generator inside Telegram.
+A wallet generator inside Telegram.
 
 ## What is VaultForgeWalletBot?
 
-VaultForgeWalletBot is a Telegram bot that generates crypto wallets. It creates addresses, private keys, and mnemonics for multiple blockchains, and stores them securely in an encrypted database.
+VaultForgeWalletBot is a Telegram bot that generates crypto wallets. It creates addresses, private keys, and mnemonics for multiple blockchains.
 
 ## ⚠️ Important Notice
 
 VaultForgeWalletBot is currently a **wallet generator**, not a full operational wallet.
 
-- ✅ It generates: address, private key, and mnemonic.
-- ✅ It stores them securely in an encrypted database.
-- ❌ It does NOT connect to blockchain networks (BTC, ETH, etc.).
-- ❌ It does NOT monitor addresses.
-- ❌ It does NOT know when funds are sent or received.
+**What it does:**
+- Generates: address, private key, and mnemonic.
+- Supports multiple blockchains (BTC, ETH, SOL, and more).
+- Works entirely inside Telegram.
+
+**What it does NOT do yet:**
+- Connect to blockchain networks (BTC, ETH, etc.).
+- Monitor addresses.
+- Know when funds are sent or received.
 
 **This means**: You can generate wallets, but you cannot send, receive, or track funds through this bot yet. For full wallet functionality, please wait for future updates or use a dedicated wallet app.
 
@@ -22,19 +26,18 @@ VaultForgeWalletBot is currently a **wallet generator**, not a full operational 
 
 - **Wallet Generation**: Creates addresses, private keys, and mnemonics.
 - **Multi-Chain Support**: Generates wallets for Bitcoin, Ethereum, Solana, and more.
-- **Secure Storage**: Encrypted database keeps your keys safe.
 - **No Separate App**: Everything happens inside Telegram.
+- **Simple Commands**: Easy to use, even for beginners.
 
 ## How to Use
 
 1. Open Telegram and search for `@VaultForgeWalletBot707_bot`.
 2. Start the bot and follow the instructions.
-3. Generate your wallet and store it securely.
+3. Generate your wallet.
 
 ## Roadmap
 
 - [x] Wallet generation (address, private key, mnemonic)
-- [x] Secure encrypted storage
 - [ ] Blockchain integration (BTC, ETH, SOL)
 - [ ] Send/receive functionality
 - [ ] Transaction tracking
